@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 48px 0 100px 42px;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.link-head {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+    text-align: center;
+    letter-spacing: 0.875px;
+}
+
+.button-header {
+    Width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border-radius: 10px;
+    border: 1px solid #4CB538;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.img-logo {
+    position: static;
+    width: 495.18px;
+    height: 500px;
+    left: 121px;
+    top: 2px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.button-main {
+    Width: 112px;
+    height: 27px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 50px;
+}
+
+section {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+h1 {
+    width: 582px;
+    height: 164px;
+    left: 801px;
+    top: 342px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    text-align: justify;
+}
+
+
+@media screen and ( max-width: 900px) {
+
+
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        color: #161A49;
+    }
+    p {
+        width: 304px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+    }
+    .link-head {
+        display: none;
+    }
+    .button-main {
+        display: block;
+        margin: 0 auto;
+    }
+    .img-logo {
+        width: 390px;
+        height: 800px;
+    }
+    .buton-header {
+        display: block;
+        margin: 0px 0px 100px 90px;
+    
+    }
+
+    .container-rigth {
+        display: block;
+        position: fixed;
+        margin-top: -110%;
+    }
+
+    .img-logo {
+        display: block;
+        margin-top: 70%;
+        width: 312px;
+        height: 288px;
+}
+
+
+
+}
